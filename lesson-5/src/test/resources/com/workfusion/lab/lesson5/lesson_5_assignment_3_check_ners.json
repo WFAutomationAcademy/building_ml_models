@@ -1,0 +1,1 @@
+{"@type":"java.util.ArrayList","@items":[{"@type":"com.workfusion.lab.model.TestNamedEntity","type":"invoice","begin":98,"end":109,"text":"12345678900"},{"@type":"com.workfusion.lab.model.TestNamedEntity","type":"invoice","begin":222,"end":233,"text":"00123655478"}]}

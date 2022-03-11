@@ -1,0 +1,1 @@
+{"@type":"java.util.ArrayList","@items":[{"@type":"com.workfusion.lab.model.TestNamedEntity","type":"country","begin":79,"end":86,"text":"Germany"},{"@type":"com.workfusion.lab.model.TestNamedEntity","type":"country","begin":274,"end":277,"text":"USA"}]}
