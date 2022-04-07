@@ -1,23 +1,23 @@
 /*
  * Copyright (C) WorkFusion 2018. All rights reserved.
  */
-package com.workfusion.lab.lesson9.run;
+package com.workfusion.lab.finalassignment.run;
+
+import com.workfusion.lab.finalassignment.model.FinalAssignmentModel;
+import com.workfusion.vds.sdk.run.ModelRunner;
+import com.workfusion.vds.sdk.run.config.LocalExecutionConfiguration;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.workfusion.lab.lesson9.model.Assignment2Model;
-import com.workfusion.vds.sdk.run.ModelRunner;
-import com.workfusion.vds.sdk.run.config.LocalExecutionConfiguration;
-
 /**
  * Runner class for local model execution.
  * Could be used for model tuning and post-processing development.
  * Paths to input documents, trained model and output folders are required for the lauch.
  */
-public class Assignment2ModelExecutionRunner {
+public class FinalAssignmentModelExecutionRunner {
 
     /**
      * Model directory path to use.
@@ -51,7 +51,7 @@ public class Assignment2ModelExecutionRunner {
                 .parameters(parameters)
                 .build();
 
-        ModelRunner.run(Assignment2Model.class, configuration);
+        ModelRunner.run(FinalAssignmentModel.class, configuration);
     }
 
 }

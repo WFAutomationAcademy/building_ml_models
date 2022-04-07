@@ -32,6 +32,7 @@
 		<module>lesson-7</module>
 		<module>lesson-8</module>
 		<module>lesson-9</module>
+        <module>final-assignment</module>
     </modules>
 
     <dependencies>

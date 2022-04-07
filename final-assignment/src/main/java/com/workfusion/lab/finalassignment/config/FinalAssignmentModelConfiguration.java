@@ -1,23 +1,19 @@
 /*
  * Copyright (C) WorkFusion 2018. All rights reserved.
  */
-package com.workfusion.lab.lesson9.config;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package com.workfusion.lab.finalassignment.config;
 
 import com.workfusion.vds.sdk.api.hypermodel.annotation.ModelConfiguration;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.Named;
 import com.workfusion.vds.sdk.api.nlp.annotator.Annotator;
 import com.workfusion.vds.sdk.api.nlp.configuration.IeConfigurationContext;
 import com.workfusion.vds.sdk.api.nlp.fe.FeatureExtractor;
-import com.workfusion.vds.sdk.api.nlp.model.Document;
-import com.workfusion.vds.sdk.api.nlp.model.Element;
-import com.workfusion.vds.sdk.api.nlp.model.Field;
-import com.workfusion.vds.sdk.api.nlp.model.IeDocument;
-import com.workfusion.vds.sdk.api.nlp.model.Token;
+import com.workfusion.vds.sdk.api.nlp.model.*;
 import com.workfusion.vds.sdk.api.nlp.processing.Processor;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * The model configuration class.
@@ -25,7 +21,7 @@ import com.workfusion.vds.sdk.api.nlp.processing.Processor;
  * Also you can import configuration with set of predefined components or your own configuration
  */
 @ModelConfiguration
-public class Assignment2ModelConfiguration {
+public class FinalAssignmentModelConfiguration {
 
     /**
      * Regex pattern to use for matching {@link Token} elements.

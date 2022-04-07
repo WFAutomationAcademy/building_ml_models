@@ -1,7 +1,12 @@
 /*
  * Copyright (C) WorkFusion 2018. All rights reserved.
  */
-package com.workfusion.lab.lesson9.run;
+package com.workfusion.lab.finalassignment.run;
+
+import com.workfusion.lab.finalassignment.model.FinalAssignmentModel;
+import com.workfusion.vds.sdk.api.nlp.configuration.FieldInfo;
+import com.workfusion.vds.sdk.run.ModelRunner;
+import com.workfusion.vds.sdk.run.config.LocalTrainingConfiguration;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -10,16 +15,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.workfusion.lab.lesson9.model.Assignment2Model;
-import com.workfusion.vds.sdk.api.nlp.configuration.FieldInfo;
-import com.workfusion.vds.sdk.run.ModelRunner;
-import com.workfusion.vds.sdk.run.config.LocalTrainingConfiguration;
-
 /**
  * This runner allows you to start model training on your local machine.
  * Paths to training set and output folders, fields configuration are required for the lauch.
  */
-public class Assignment2ModelTrainingRunner {
+public class FinalAssignmentModelTrainingRunner {
 
     /**
      * Input directory path to use.
@@ -52,7 +52,7 @@ public class Assignment2ModelTrainingRunner {
                 .parameters(parameters)
                 .build();
 
-        ModelRunner.run(Assignment2Model.class, configuration);
+        ModelRunner.run(FinalAssignmentModel.class, configuration);
     }
 
 }

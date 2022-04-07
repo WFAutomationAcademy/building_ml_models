@@ -1,10 +1,10 @@
 /*
  * Copyright (C) WorkFusion 2018. All rights reserved.
  */
-package com.workfusion.lab.lesson9.model;
+package com.workfusion.lab.finalassignment.model;
 
-import com.workfusion.lab.lesson9.config.Assignment2ModelConfiguration;
 import com.workfusion.automl.hypermodel.ie.IeGenericSe30Hypermodel;
+import com.workfusion.lab.finalassignment.config.FinalAssignmentModelConfiguration;
 import com.workfusion.vds.sdk.api.hypermodel.ModelType;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.HypermodelConfiguration;
 import com.workfusion.vds.sdk.api.hypermodel.annotation.ModelDescription;
@@ -13,16 +13,16 @@ import com.workfusion.vds.sdk.api.hypermodel.annotation.ModelDescription;
  * The model class. Define here you model details like code, version etc.
  */
 @ModelDescription(
-        code = "wf-lab-ml-sdk-lesson-9-model",
-        title = "WF Lab ML-SDK Lesson 9 Model (1.0)",
-        description = "WF Lab ML-SDK Lesson 9 Model (1.0)",
+        code = "wf-lab-ml-sdk-final-assignment-model",
+        title = "WF Lab ML-SDK Final Assignment Model (1.0)",
+        description = "WF Lab ML-SDK Final Assignment Model (1.0)",
         version = "1.0",
         type = ModelType.IE
 )
-@HypermodelConfiguration(Assignment2ModelConfiguration.class)
-public class Assignment2Model extends IeGenericSe30Hypermodel {
+@HypermodelConfiguration(FinalAssignmentModelConfiguration.class)
+public class FinalAssignmentModel extends IeGenericSe30Hypermodel {
 
-    public Assignment2Model() throws Exception {
+    public FinalAssignmentModel() throws Exception {
     }
 
 }
